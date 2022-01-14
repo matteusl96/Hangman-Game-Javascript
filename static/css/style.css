@@ -1,0 +1,209 @@
+
+
+body {
+    background-color: rgb(206, 206, 206);
+}
+
+h1.titulo {
+    color:rgb(42, 100, 207);
+    font-weight:bold;
+    font-family: FreeMono, monospace;
+    width: 500px;
+    margin-left: 680px;
+    text-align: center;
+
+}
+
+
+
+.palavra {
+    display: flex;
+    justify-content: center;
+   
+    text-align: center;
+    margin-top: 20px;
+    width: 540px;
+    margin-left: 650px;
+    font-family: FreeMono, monospace;
+    
+}
+
+span {
+  border-bottom: 3px solid #008CBA;
+  width: 40px;
+  margin: 5px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-family: FreeMono, monospace;
+}
+
+
+
+h1 {
+    color:rgb(42, 100, 207);
+    font-weight:bold;
+    font-family: FreeMono, monospace;
+     width: 500px;
+    margin-left: 680px;
+    text-align: center;
+}
+
+
+button {
+    background-color: #008CBA;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-transform: uppercase;
+}
+
+button.revelar {
+    background-color: #00ba7c;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+
+  div.menu {
+    margin: 0;
+  position: absolute;
+  top: 820px;
+  left: 680px;
+  
+}
+
+
+button.sortear {
+    background-color: #00ba7c;
+    border: 2px solid black;
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19)
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+button:active {
+    transform: scale(0.98);
+  }
+
+
+
+.certa, .certa:hover {
+    background: #00ba7c;
+    border: 2px solid black;
+    cursor: inherit;
+}
+
+.errada, .errada:hover {
+    background: #db3b43;
+    border: 2px solid black;
+    cursor: inherit;
+}
+
+
+
+img {
+    display: block;
+  margin-left: 675px;
+  margin-right: 700px;
+ width: 500px;
+  border-radius: 45px;  
+}
+
+
+
+.fileira-3 {
+    margin: 0;
+  position: absolute;
+  top: 630px;
+  left:600px;
+  
+}
+
+.fileira-2 {
+    margin: 0;
+  position: absolute;
+  top: 690px;
+  left: 600px;
+  
+}
+
+.fileira-1 {
+    margin: 0;
+  position: absolute;
+  top: 750px;
+  left: 665px;
+  
+}
+
+
+h2.dica{
+    text-align: center;
+    color: black;
+    font-family: FreeMono, monospace;
+    width: 500px;
+    margin-left: 680px;
+    }
+
+    #novo-ganhou {
+        
+        text-align: center;
+        color: black;
+        font-family: FreeMono, monospace;
+        width: 1000px;
+        margin-left: 430px;
+        margin-top: 10px;
+        font-size: 45px;;
+         
+    }
+
+    #novo-perdeu {
+        
+        text-align: center;
+        color: black;
+        font-family: FreeMono, monospace;
+        width: 1000px;
+        margin-left: 430px;
+        
+        margin-top:-50px;
+        font-size: 45px;;
+         
+    }
+
+    button.novo-bt {
+        background-color: #008CBA;
+        border: 2px solid black;
+        border-radius: 12px;
+        color: white;
+
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        margin: 0;
+        position: absolute;
+        top: 750px;
+        left: 820px;
+    }

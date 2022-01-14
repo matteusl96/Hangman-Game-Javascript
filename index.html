@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+    <header class="titulo">
+        <h1>Jogo da Forca em Javascript!</h1>
+    </header>
+    <section class="corpo">
+        <h2 class="dica" id="dica"></h2>
+        <img id="forca" src="./static/img/forca.png" alt="Forca">
+        <div id="palavra" class="palavra">
+        </div>
+        <div id="novo-ganhou"></div>
+        <div id="novo-perdeu"></div>
+    
+     
+    <div id="letras-1" class="fileira-1"> </div>
+    <div id="letras-2" class="fileira-2"> </div>
+    <div id="letras-3" class="fileira-3"> </div> 
+    <div class="menu">
+        <button type="button" class="sortear" onclick="sorteio()">Sortear nova palavra</button>
+        <button type="button" class="revelar" onclick="reveal()">Revelar a resposta</button>
+      </div>
+    <script src="./static/js/script.js"></script>
+</body>
+</html>
